@@ -1,0 +1,9 @@
+induction b with d hd
+repeat rw [mul_zero]
+rw [add_zero]
+rfl
+repeat rw [mul_succ]
+rw [hd]
+repeat rw [add_succ]
+rw[add_right_comm]
+rfl
