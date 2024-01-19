@@ -1,0 +1,5 @@
+rw [mul_comm]
+rw [two_eq_succ_one]
+rw [mul_succ]
+rw [mul_one]
+rfl
