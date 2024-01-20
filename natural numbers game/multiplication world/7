@@ -1,0 +1,7 @@
+induction a with d hd
+repeat rw[zero_mul]
+rw[zero_add]
+rfl
+repeat rw [succ_mul]
+rw [hd]
+simp_add
