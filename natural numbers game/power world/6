@@ -1,0 +1,12 @@
+induction m with d hd
+rw [zero_add]
+rw[pow_zero]
+rw [one_mul]
+rfl
+rw [succ_add]
+repeat rw[pow_succ]
+rw [hd]
+rw [mul_assoc]
+nth_rewrite 2 [mul_comm]
+rw [← mul_assoc]
+rfl
