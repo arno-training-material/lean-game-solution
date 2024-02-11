@@ -1,0 +1,6 @@
+intro
+apply zero_ne_succ
+repeat rw [succ_add] at a
+repeat rw [zero_add] at a
+repeat apply succ_inj at a
+exact a
